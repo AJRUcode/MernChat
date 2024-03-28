@@ -15,7 +15,7 @@ export default function RegisterAndLoginForm() {
         setId(data.id);
     }
     return(
-        <div className="bg-blue-50 h-screen flex items-center">
+        <div className="bg-blue-100 h-screen flex items-center">
             <form className="w-64 mx-auto mb-12" onSubmit={handleSubmit}>
                 <input value={username} 
                 onChange={ev => setUsername(ev.target.value)} 
